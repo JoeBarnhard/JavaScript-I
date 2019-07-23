@@ -18,7 +18,7 @@ const example = {
 }
 
 // Write your intern objects here:
-const Mitzo = {
+const Mitzi = {
   'id': 1,
   'name': 'Mitzi',
   'email': 'mmelloy0@psu.edu',
@@ -74,7 +74,7 @@ Kennan.speak = (function(){
 // Kennan.speak();
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
-Antonietta.multiple = (function(num1, num2){
+Antonietta.multiplyNums = (function(num1, num2){
   return num1 * num2;
 })
 console.log(Antonietta.multiplyNums(3,4));
@@ -87,9 +87,10 @@ console.log(Antonietta.multiplyNums(3,4));
 // 3. Nest a grandchild object in the child object with properties for name and age.  The name will be Sam and the age will be 30
 // 4. Give each of the objects the ability to speak their names using the this keyword.
 
-const parent = {}
+const parent = {name:"Susan", age:70};
 
 // Log the parent object's name
+console.log(name.age);
 
 // Log the child's age
 
